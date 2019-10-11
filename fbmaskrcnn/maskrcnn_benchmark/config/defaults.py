@@ -67,9 +67,9 @@ _C.INPUT.VERTICAL_FLIP_PROB_TRAIN = 0.0
 # -----------------------------------------------------------------------------
 _C.DATASETS = CN()
 # List of the dataset names for training, as present in paths_catalog.py
-_C.DATASETS.TRAIN = ()
+_C.DATASETS.TRAIN = ("KuzushijiDataset")
 # List of the dataset names for testing, as present in paths_catalog.py
-_C.DATASETS.TEST = ()
+_C.DATASETS.TEST = ("KuzushijiDataset")
 
 # -----------------------------------------------------------------------------
 # DataLoader
