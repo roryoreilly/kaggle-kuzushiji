@@ -130,6 +130,13 @@ class DatasetCatalog(object):
                 factory="PascalVOCDataset",
                 args=args,
             )
+        elif "kuzushiji" in name:
+            args = dict(
+            )
+            return dict(
+                factory="KuzushijiDataset",
+                args=args,
+            )
         raise RuntimeError("Dataset not available: {}".format(name))
 
 

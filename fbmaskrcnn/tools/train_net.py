@@ -169,6 +169,7 @@ def main():
     cfg.freeze()
 
     output_dir = cfg.OUTPUT_DIR
+
     if output_dir:
         mkdir(output_dir)
 
