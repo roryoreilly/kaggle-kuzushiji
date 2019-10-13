@@ -25,7 +25,7 @@ MODEL:
     NUM_CLASSES: 4787
 DATASETS:
   TRAIN: ("kuzushiji_dataset")
-  TEST: ("kuzushiji_dataset",)
+  TEST: ("kuzushiji_dataset")
 SOLVER:
   BASE_LR: 0.06
   WARMUP_FACTOR: 0.1
