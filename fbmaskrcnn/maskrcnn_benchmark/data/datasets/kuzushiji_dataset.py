@@ -4,7 +4,7 @@ import pandas as pd
 import torch
 import torch.utils.data
 from PIL import Image
-from fbmaskrcnn.maskrcnn_benchmark.structures.bounding_box import BoxList
+from maskrcnn_benchmark.structures.bounding_box import BoxList
 
 class KuzushijiDataset(torch.utils.data.Dataset):
     def __init__(self, transforms=None):

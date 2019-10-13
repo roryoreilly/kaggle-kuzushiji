@@ -2,8 +2,8 @@ import pandas as pd
 import os
 import torch
 
-from fbmaskrcnn.maskrcnn_benchmark.config import cfg
-from fbmaskrcnn.maskrcnn_benchmark.utils.comm import get_world_size
+from maskrcnn_benchmark.config import cfg
+from maskrcnn_benchmark.utils.comm import get_world_size
 from .predictor import COCODemo
 
 
